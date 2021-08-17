@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 20px;
+    font-family:monospace;
+}
+
+h1, nav, .contact-container, footer {
+    text-align: center;
+}
+
+ul, li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+li{
+    border-bottom: 1px solid black;
+}
+
+.marvel-container img{
+    width: 1000px;
+    height: 200px;
+}
+
+.password-container img,
+.weather-container img{
+    width: 500px;
+    height: 300px;
+}
+
+/* .marvel-container,
+.password-container,
+.weather-container{
+    border: 1px solid black;
+} */
+/* 
+header, main, footer{
+    margin: 25px;
+} */
+
+
+
